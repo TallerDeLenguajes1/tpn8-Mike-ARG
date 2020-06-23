@@ -1,0 +1,13 @@
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.exe
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.deps.json
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.runtimeconfig.json
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.runtimeconfig.dev.json
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.dll
+C:\RepoGit\tp7\tp7\tp7\bin\Debug\netcoreapp3.1\tp7.pdb
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.csprojAssemblyReference.cache
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.csproj.CoreCompileInputs.cache
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.AssemblyInfoInputs.cache
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.AssemblyInfo.cs
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.dll
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.pdb
+C:\RepoGit\tp7\tp7\tp7\obj\Debug\netcoreapp3.1\tp7.genruntimeconfig.cache
