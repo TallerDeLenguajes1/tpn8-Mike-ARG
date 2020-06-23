@@ -110,6 +110,7 @@ namespace Calculadora
             Calculadora calc = new Calculadora();
             List<Calculadora> Lista = new List<Calculadora>();
             float resultado;
+            //DateTime fecha = new DateTime();
 
             if (casillaTexto.Text.Contains("+"))
             {
@@ -119,7 +120,7 @@ namespace Calculadora
                 resultado = calc.Suma(calc.Numero1, calc.Numero2);
                 casillaTexto.Text = Convert.ToString(resultado);
                 Lista.Add(calc);
-                historial.Items.Add(expresion + " = " + Convert.ToString(resultado));
+                historial.Items.Add(DateTime.Now.ToString("MM/dd/yy H:mm") + "  --->  " +  expresion + " = " + Convert.ToString(resultado));
 
             } else if (casillaTexto.Text.Contains("-"))
             {
@@ -129,7 +130,7 @@ namespace Calculadora
                 resultado = calc.Resta(calc.Numero1, calc.Numero2);
                 casillaTexto.Text = Convert.ToString(resultado);
                 Lista.Add(calc);
-                historial.Items.Add(expresion + " = " + Convert.ToString(resultado));
+                historial.Items.Add(DateTime.Now.ToString("MM/dd/yy H:mm") + "  --->  " + expresion + " = " + Convert.ToString(resultado));
             } else if (casillaTexto.Text.Contains("*"))
             {
                 ecuacion = casillaTexto.Text.Split('*');
@@ -139,7 +140,7 @@ namespace Calculadora
                 resultado = calc.Multiplicacion(calc.Numero1, calc.Numero2);
                 casillaTexto.Text = Convert.ToString(resultado);
                 Lista.Add(calc);
-                historial.Items.Add(expresion + " = " + Convert.ToString(resultado));
+                historial.Items.Add(DateTime.Now.ToString("MM/dd/yy H:mm") + "  --->  " + expresion + " = " + Convert.ToString(resultado));
             } else if (casillaTexto.Text.Contains("/"))
             {
                 ecuacion = casillaTexto.Text.Split('/');
@@ -149,7 +150,7 @@ namespace Calculadora
                 resultado = calc.Division(calc.Numero1, calc.Numero2);
                 casillaTexto.Text = Convert.ToString(resultado);
                 Lista.Add(calc);
-                historial.Items.Add(expresion + " = " + Convert.ToString(resultado));
+                historial.Items.Add(DateTime.Now.ToString("MM/dd/yy H:mm") + "  --->  " + expresion + " = " + Convert.ToString(resultado));
             }
         }
 
