@@ -236,6 +236,7 @@
             this.historial.Size = new System.Drawing.Size(252, 274);
             this.historial.TabIndex = 3;
             this.historial.SelectedIndexChanged += new System.EventHandler(this.historial_SelectedIndexChanged);
+            this.historial.DoubleClick += new System.EventHandler(this.historial_DoubleClick);
             // 
             // texto1
             // 

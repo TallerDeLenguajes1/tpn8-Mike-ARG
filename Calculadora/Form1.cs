@@ -155,7 +155,12 @@ namespace Calculadora
 
         private void historial_SelectedIndexChanged(object sender, EventArgs e)
         {
-            historial.DoubleClick
+        }
+
+        private void historial_DoubleClick(object sender, EventArgs e)
+        {
+            historial.Items.Remove(historial.SelectedItem);
+            
         }
     }
 }
